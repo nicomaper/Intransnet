@@ -37,7 +37,7 @@ For the script to work properly, the following Python packages should be install
 
 ## Built With
 
-* [Python 3.7](https://www.python.org/) - The programming language used to create this program
+* [Python 3.7](https://www.python.org/) - The programming language used to write this program
 
 ## Authors
 
