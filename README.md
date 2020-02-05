@@ -9,7 +9,7 @@ This script has three mandatory input arguments:
 * A data frame with the expression values of the network proteins genes from an RNA-seq experiment as FPKM, RPKM, TPM, or similar (txt file)
 * A cut-off expression value (float)
 
-The genes which expression is under the provided cut-off value will be deleted from the original given network, giving birth to a new version that contains only the nodes that are expressed under certain experimental conditions, tissues, cell types, etc. Instead of providing the cut-off value as a float, there is also the possibility of getting its automatic computation by providing the whole RNA-Seq dataset as a data frame (has the same structure as the previous one, but with all the genes and not only the network genes).
+The genes which expression is under the provided cut-off value will be deleted from the original given network, giving birth to a new version that contains only the nodes that are expressed under certain experimental conditions, tissues, cell types, etc. Instead of providing the cut-off value as a float, there is also the possibility of getting its automatic computation by providing the whole RNA-Seq dataset as a data frame (it should have the same structure as the previous one, but with all the genes and not only the network genes).
 
 The ouput of the script is a data frame with the value of 18 network parameters for all the different networks generated.
 
