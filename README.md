@@ -13,7 +13,7 @@ The genes which expression is under the provided cut-off value will be deleted f
 
 The ouput of the script is a data frame with the value of 18 network parameters for all the different networks generated.
 
-Another optional arguments are:
+Other optional arguments are:
 
 * Option to generate the edge list of all the generated networks.
 * Option to perform statistical comparison of all the networks among them, with the original and with a random network and and visualize the results.
