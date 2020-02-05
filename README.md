@@ -41,7 +41,7 @@ For the script to work properly, the following Python packages should be install
 
 ## Authors
 
-* **Nicolás Manosalva Pérez
+* **Nicolás Manosalva Pérez**
 
 ## License
 
