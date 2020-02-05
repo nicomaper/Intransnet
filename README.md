@@ -11,7 +11,7 @@ This script has three mandatory input arguments:
 
 The genes which expression is under the provided cut-off value will be deleted from the original given network, giving birth to a new version that contains only the nodes that are expressed under certain experimental conditions, tissues, cell types, etc.
 
-If not cut-off value is held
+Instead of providing the cut-off value as a float, there is also the possibility of getting its automatic computation by providing the whole RNA-Seq dataset as a data frame (has the same structure as the perviuous one, but with all the genes, not only the network genes).
 
 ### Prerequisites
 
