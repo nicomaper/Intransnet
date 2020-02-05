@@ -20,29 +20,16 @@ Another optional arguments are:
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+To use the script it is required to have Python 3.7 installed. For further information on how to do this visit [This link](https://tecadmin.net/install-python-3-7-on-ubuntu-linuxmint/)
 
-```Linux
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+Also it is important that the following Python packages are installed:
+* Pandas
+* Numpy
+* NetworkX
+* Scipy
+* Scikit-learn
+* Matplotlib
+* Seaborn
 
 ## Running the tests
 
