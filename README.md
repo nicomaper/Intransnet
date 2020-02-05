@@ -23,13 +23,13 @@ Another optional arguments are:
 To use the script it is required to have Python 3.7 installed. For further information on how to do this visit the following [link](https://tecadmin.net/install-python-3-7-on-ubuntu-linuxmint/)
 
 Also it is important that the following Python packages are installed:
-* Pandas
-* Numpy
-* NetworkX
-* Scipy
-* Scikit-learn
-* Matplotlib
-* Seaborn
+* [Pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html)
+* [Numpy](https://docs.scipy.org/doc/numpy/user/install.html)
+* [NetworkX](https://networkx.github.io/documentation/networkx-1.1/install.html)
+* [Scipy](https://scipy.org/install.html)
+* [Scikit-learn](https://scikit-learn.org/stable/install.html)
+* [Matplotlib](https://matplotlib.org/users/installing.html)
+* [Seaborn](https://seaborn.pydata.org/installing.html)
 
 ## Running the tests
 
