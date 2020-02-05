@@ -1,11 +1,17 @@
 # Intransnet
-Command line-based Pyhton 3.7 script for the automatization of the integration of protein-protein interaction data with RNA-Seq data.
+Command line-based Python 3.7 script for the automatization of the integration of protein-protein interaction (PPI) data with RNA-Seq data.
 
-I did this Python script during the developing of my Master Final Project. The objective was to automatize the integration of protein protein interaction data from a network with expression data derived from RNA-seq experiments
+I did this Python script during the developing of my Master Final Project. The objective was to automatize the integration of protein protein interaction data from a network with expression data derived from RNA-seq experiments. The objective is to simplify a given network according to a transcriptomic profilling experiment, by eliminating from the network the proteins which genes are not being expressed under certain experimental conditionds, tissues, cell types, etc.
 
 ## Getting Started
+This script has three mandatory input arguments:
+* A PPI network in the form of an edge list with only two columns (txt file)
+* A data frame with the expression values of the network proteins genes from an RNA-seq experiment as FPKM, RPKM, TPM, or similar (txt file)
+* A cut-off expression value (float)
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+The genes which expression is under the provided cut-off value will be deleted from the original given network, giving birth to a new version that contains only the nodes that are expressed under certain experimental conditions, tissues, cell types, etc.
+
+If not cut-off value is held
 
 ### Prerequisites
 
