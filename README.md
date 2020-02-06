@@ -1,7 +1,7 @@
 # Intransnet
 Command line-based Python 3.7 script for the automatization of the integration of protein-protein interaction (PPI) data with RNA-Seq data.
 
-I did this Python script during the developing of my Master Final Project. The objective was to automatize the integration of protein protein interaction data from a network with expression data derived from RNA-seq experiments. The objective is to simplify a given network according to a transcriptomic profilling experiment, by eliminating from the network the proteins which genes are not being expressed under certain experimental conditionds, tissues, cell types, etc.
+I did this Python script during the developing of my Master Final Project. The objective was to automatize the integration of protein protein interaction data from a network with expression data derived from RNA-seq experiments. The objective is to simplify a given network according to a transcriptomic profilling experiment, by eliminating from the network the proteins which genes are not being expressed under certain experimental conditions, tissues, cell types, etc.
 
 ## Getting Started
 This script has three mandatory input arguments:
@@ -33,6 +33,13 @@ For the script to work properly, the following Python packages should be install
 
 ## Tutorial
 
+For the script to work, it is required to have on the same directory the python file intransnet.py, the network edgelist and the expression values data frame in a txt format. For automatic cut-off value computation, it should also be added the whole RNA-Seq experiment Count Matrix. Then proceed to navigate to the said directory.
+
+To get help on what are the program options type on the command line:
+
+```
+Python intransnet.py -h
+```
 
 
 ## Built With
