@@ -73,7 +73,7 @@ Optinal arguments:
 Copy and paste the following in the command line to used the mentioned above options:
 
 ```
-python intransnet.py edge_list.txt net_count_matrix.txt -cfc whole_count_matrix.txt -el -p pval_hm, par_hm, pca violin
+python intransnet.py edge_list.txt net_count_matrix.txt -cfc whole_count_matrix.txt -el -p pval_hm par_hm pca violin
 ```
 
 The edge lists as well as the plots in a png format are stored in the 'intransnet_results' directory.
