@@ -20,7 +20,7 @@ Other optional arguments are:
 
 ### Prerequisites
 
-To use the script it is required to [install Python 3.7](https://tecadmin.net/install-python-3-7-on-ubuntu-linuxmint/) installed.
+To use the script it is required to [install Python 3.7](https://tecadmin.net/install-python-3-7-on-ubuntu-linuxmint/).
 
 For the script to work properly, the following Python packages should be installed:
 * [Pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html)
