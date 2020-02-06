@@ -20,7 +20,7 @@ Other optional arguments are:
 
 ### Prerequisites
 
-To use the script it is required to have [Python 3.7](https://tecadmin.net/install-python-3-7-on-ubuntu-linuxmint/) installed.
+To use the script it is required to [install Python 3.7](https://tecadmin.net/install-python-3-7-on-ubuntu-linuxmint/) installed.
 
 For the script to work properly, the following Python packages should be installed:
 * [Pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html)
@@ -49,7 +49,7 @@ To use the example network and data set included in the directory 'Example' prov
 python intransnet.py edge_list.txt net_count_matrix.txt -cf 8
 ```
 
-A new directory will be created called 'instransnet_results', which contains the data frame with the results. **Important**: before running the program again please change the name of the directory, otherwise it will be rewritten and the results will be lost.
+A new directory will be created called 'intransnet_results', which contains the data frame with the results. **Important**: before running the program again please change the name of the directory, otherwise it will be rewritten and the results will be lost.
 
 Please note that if a cut-off value is provided, its value cannot be higher than any of the expression values contained in the Count Matrix. Otherwise an AssertionError will rise.
 
