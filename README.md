@@ -38,9 +38,45 @@ For the script to work, it is required to have on the same directory the python 
 To get help on what are the program options type on the command line:
 
 ```
-Python intransnet.py -h
+python intransnet.py -h
 ```
 
+____________________
+
+To use the example network and data set included in the directory 'Example' providing a pre-obtained cut-off value (in this case a random integer), copy and paste on the command line:
+
+```
+python intransnet.py edge_list.txt net_count_matrix.txt -cf 8
+```
+
+A new directory will be created called 'instransnet_results', which contains the data frame with the results. **Important**: before running the program again please change the name of the directory, otherwise it will be rewritten and the results will be lost.
+
+Please note that if a cut-off value is provided, its value cannot be higher than any of the expression values contained in the Count Matrix. Otherwise an AssertionError will rise.
+
+______________________
+
+To use the example network and data set included in the directory 'Example' but with the automatic computation of the cut-off value, copy and paste on the command line:
+
+```
+python intransnet.py edge_list.txt net_count_matrix.txt -cfc whole_count_matrix.txt
+```
+
+**Important** Note that the -cf and -cfc optiones are mutually exclusive, that means that they cannot be used together, but for the program to function at least one of them must be provided.
+
+____________
+
+Optinal arguments:
+
+* -el, --edgelists: option for the program to generate the edge lists of the generated networks
+* -p, --plotting: option to generate plots with statistical analyses (pval_hm, par_hm, pca, violin)
+
+Copy and paste the following in the command line to used the mentioned above options:
+
+```
+python intransnet.py edge_list.txt net_count_matrix.txt -cfc whole_count_matrix.txt -el -p pval_hm, par_hm, pca violin
+```
+
+The edge lists as well as the plots in a png format are stored in the 'intransnet_results' directory.
 
 ## Built With
 
