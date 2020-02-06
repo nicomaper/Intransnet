@@ -18,6 +18,8 @@ import os
 import shutil
 import matplotlib.pyplot as plt
 import seaborn as sns
+import warnings
+warnings.filterwarnings("ignore")
 
 ##Defining functions
 
