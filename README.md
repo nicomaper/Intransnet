@@ -61,7 +61,7 @@ To use the example network and data set included in the directory 'Example' but 
 python intransnet.py edge_list.txt net_count_matrix.txt -cfc whole_count_matrix.txt
 ```
 
-**Important**: Note that the -cf and -cfc optiones are mutually exclusive, that means that they cannot be used together, but for the program to function at least one of them must be provided.
+**Important**: Note that the -cf and -cfc optiones are mutually exclusive. This means that they cannot be used together, but for the program to function at least one of them must be provided.
 
 ____________
 
